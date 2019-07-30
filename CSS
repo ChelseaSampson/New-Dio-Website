@@ -2,9 +2,23 @@
   box-sizing: border-box;
 }
 
+html {
+  background: #ffffff; 
+  background-size: cover;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+a:link, a:visited {
+    background-color: #ffffff;
+    display: inline-block;
+    }
+
+    a:hover, a:active {
+    background-color: #e6e6e6;
+    }
 
 /* Style the header */
 .header {
@@ -22,15 +36,21 @@ body {
 } 
 
 .left,
-.middle,
 .right {
   padding: 10px;
   height: 300px;
+  margin: auto;
+}
+
+.middle {
+    padding: 10px;
+    height: 300px;
 }
 
 /* Style the left column */
 .left {
   grid-area: left;
+  padding-top: 100px;
 }
 
 /* Style the middle column */
@@ -41,6 +61,7 @@ body {
 /* Style the right column */
 .right {
   grid-area: right;
+  padding-top: 100px;
 }
 
 /* Style the footer */
