@@ -34,7 +34,7 @@ a:hover, a:active {
 .left,
 .right {
   padding: 10px;
-  height: 300px;
+  height: 500px;
   margin: auto;
 }
 
@@ -46,7 +46,7 @@ a:hover, a:active {
 /* Style the left column */
 .left {
   grid-area: left;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 /* Style the middle column */
@@ -57,7 +57,7 @@ a:hover, a:active {
 /* Style the right column */
 .right {
   grid-area: right;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 /* Style the footer */
